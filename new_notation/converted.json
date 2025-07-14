@@ -1,0 +1,43 @@
+[
+	{
+		"age": 18,
+		"hobbies": [
+			"Chess",
+			"Programming"
+		],
+		"id": "GeochangHighschool-3227",
+		"name": "Alice",
+		"position": "president",
+		"school": "GeochangHighschool"
+	},
+	{
+		"age": 18,
+		"hobbies": [
+			"Sleeping",
+			"Chess",
+			"Programming"
+		],
+		"id": "GeochangHighschool-3429",
+		"name": "Bob",
+		"school": "GeochangHighschool"
+	},
+	{
+		"id": "GeochangHighschool-3121",
+		"in-school": false,
+		"name": "Lee Euchan",
+		"school": null
+	},
+	{
+		"age": 18,
+		"debt($)": 299792458,
+		"gender": null,
+		"hobbies": [
+			"Sleeping",
+			"Chess",
+			"Programming"
+		],
+		"id": "GeochangHighschool-4132",
+		"name": "Cathy",
+		"school": "GeochangHighschool"
+	}
+]
