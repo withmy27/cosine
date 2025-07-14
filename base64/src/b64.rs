@@ -71,11 +71,6 @@ pub extern "C" fn to_base64(dptr: *const u8, dlen: usize, rbuf: *mut u8, padding
     j
 }
 
-// #[unsafe(export_name = "fromBase64")]
-// pub fn from_base64(base64: &str, data: &mut [u8]) -> i32 {
-//     0
-// }
-
 #[inline]
 unsafe fn map_b64(code: u8) -> u8 {
     unsafe { *BASE64_TABLE.get_unchecked(code as usize) }
@@ -83,59 +78,5 @@ unsafe fn map_b64(code: u8) -> u8 {
 
 #[cfg(test)]
 mod tests {
-    // use super::*;
-
-    // #[test]
-    // fn test_encode_no_padding() {
-    //     let mut buf = Vec::new();
-
-    //     buf = to_base64("E1L".as_bytes(), buf, false);
-
-    //     assert_eq!("RTFM".as_bytes(), buf);
-    // }
-
-    // #[test]
-    // fn test_encode_no_padding2() {
-    //     let mut buf = Vec::new();
-
-    //     buf = to_base64("LimeCrate".as_bytes(), buf, false);
-
-    //     assert_eq!("TGltZUNyYXRl".as_bytes(), buf);
-    // }
-
-    // #[test]
-    // fn test_encode_no_padding3() {
-    //     let mut buf = Vec::new();
-
-    //     buf = to_base64("LimeCrate!".as_bytes(), buf, false);
-
-    //     assert_eq!("TGltZUNyYXRlIQ".as_bytes(), buf);
-    // }
-
-    // #[test]
-    // fn test_encode_no_padding4() {
-    //     let mut buf = Vec::new();
-
-    //     buf = to_base64("CrateLime64".as_bytes(), buf, false);
-
-    //     assert_eq!("Q3JhdGVMaW1lNjQ".as_bytes(), buf);
-    // }
-
-    // #[test]
-    // fn test_encode_padding() {
-    //     let mut buf = Vec::new();
-
-    //     buf = to_base64("E1L".as_bytes(), buf, true);
-
-    //     assert_eq!("RTFM".as_bytes(), buf);
-    // }
-
-    // #[test]
-    // fn test_encode_padding2() {
-    //     let mut buf = Vec::new();
-
-    //     buf = to_base64("CrateLime64".as_bytes(), buf, true);
-
-    //     assert_eq!("Q3JhdGVMaW1lNjQ=".as_bytes(), buf);
-    // }
+   
 }
