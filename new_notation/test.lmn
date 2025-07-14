@@ -1,0 +1,55 @@
+# Lime Notation
+
+# 'Hello, world\x21\n\
+#  this is so good format \
+#  isn\'t it?\u{002764}
+# \
+#  Lime Notation \u{1F34B}\u{200D}\u{1F7E9}'
+
+# [1, 2_245__, 342., 'WoW Lime\x21', +,]
+
+# name: 'alice',
+# 'age': 17,
+# 'login': +,
+# 'potential': ^,
+# n.__.D-: 'lict',
+# google.com: 'google.com'
+
+
+# 1, 2, 3,
+# ? , +  , [1, 2,3, ?], ('goo.gle': 'google.com',
+# )  , # WoW
+# '\u{002764}\x21'
+
+# value에는 literial과 capture가 있음
+# literial은 캡쳐할 수 있지만 capture는 캡쳐 못 함
+(
+	name: "LeeGanwoo" ~delicious,
+	age: 18 ~age,
+	school: 'GeochangHighschool' ~school,
+	id: '\(school)-3227',
+	prog-langs: ['C', 'Python'] ~newbie,
+	position: 'president',
+) ~gan,
+(
+	name: 'JoHasong',
+	age,
+	school,
+	id: '\(school)-3429',
+	prog-langs: ["Rust", 'Go', ..newbie, "Kotlin"]
+) ~jo,
+(
+	name: "LeeEuchan",
+	#id: '\(school)-xxxx',
+	school: ?,
+	prog-langs: newbie,
+	alive: -,
+),
+(
+	name: 'Easyhooon',
+	age,
+	school,
+	gay: +,
+	gender: ?,
+	'debt(₩)': 299_792_458,
+)
